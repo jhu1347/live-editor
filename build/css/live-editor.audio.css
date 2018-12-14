@@ -15,6 +15,7 @@
  overflow: hidden;
  /* screw IE 6, just make it display nice */
  _overflow: hidden;
+ background-color:#f0ea3c;
 }
 
 #sm2-container object,
@@ -38,6 +39,7 @@
  min-height: 100px;
  background-color: #E0E0E0;
  padding: 8px;
+ overflow:auto;
 }
 
 #sm2-container.swf_timedout object,
@@ -111,9 +113,10 @@
 
 #sm2-container.high_performance.swf_loaded {
  /* stay bottom/left */
- top: auto;
+ top: 5px;
  bottom: 0px;
  left: 0px;
+ overflow:auto;
 }
 
 #sm2-container.high_performance.swf_loaded object,
